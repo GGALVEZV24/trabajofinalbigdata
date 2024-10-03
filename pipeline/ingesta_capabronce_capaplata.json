@@ -1,0 +1,28 @@
+{
+	"name": "ingesta_capabronce_capaplata",
+	"properties": {
+		"activities": [
+			{
+				"name": "BRONCEPLATA",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/ckcertus@hotmail.com/Ingesta_capa_bronce_capa_plata"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
