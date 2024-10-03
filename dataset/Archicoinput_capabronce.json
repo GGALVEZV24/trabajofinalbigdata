@@ -1,13 +1,26 @@
 {
-	"name": "Archivos_input",
+	"name": "Archicoinput_capabronce",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "conector_ADLS_datafactory",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"archivo_input": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().archivo_input",
+					"type": "Expression"
+				},
 				"folderPath": "input",
-				"fileSystem": "proyectofinal"
+				"fileSystem": "ggalvezproyecto"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",

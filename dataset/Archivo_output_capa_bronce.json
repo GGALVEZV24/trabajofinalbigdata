@@ -1,10 +1,6 @@
 {
 	"name": "Archivo_output_capa_bronce",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "Conector_ADLS_Datafactory",
-			"type": "LinkedServiceReference"
-		},
 		"parameters": {
 			"Archivo_output": {
 				"type": "string"

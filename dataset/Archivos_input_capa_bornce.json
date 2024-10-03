@@ -1,10 +1,6 @@
 {
 	"name": "Archivos_input_capa_bornce",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "Conector_ADLS_Datafactory",
-			"type": "LinkedServiceReference"
-		},
 		"parameters": {
 			"Archivo_input": {
 				"type": "string"
