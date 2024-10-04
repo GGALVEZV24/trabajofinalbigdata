@@ -15,10 +15,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/ckcertus@hotmail.com/Ingesta_capa_bronce_capa_plata"
+					"notebookPath": "/Users/gregv2408@outlook.com/Ingesta_capa_bronce_capa_plata"
 				},
 				"linkedServiceName": {
-					"referenceName": "AzureDatabricks1",
+					"referenceName": "AzureDatabricks3",
 					"type": "LinkedServiceReference"
 				}
 			}

@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "PLATAORO",
+				"name": "PLATATAORO",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -15,10 +15,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Users/ckcertus@hotmail.com/Ingesta_capaplata_capaoro"
+					"notebookPath": "/Users/gregv2408@outlook.com/Ingesta_capaplata_capaoro"
 				},
 				"linkedServiceName": {
-					"referenceName": "AzureDatabricks2",
+					"referenceName": "AzureDatabricks3",
 					"type": "LinkedServiceReference"
 				}
 			}
