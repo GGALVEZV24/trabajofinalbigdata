@@ -18,7 +18,7 @@
 					"notebookPath": "/Users/gregv2408@outlook.com/Ingesta_capa_bronce_capa_plata"
 				},
 				"linkedServiceName": {
-					"referenceName": "AzureDatabricks3",
+					"referenceName": "AzureDatabricks4",
 					"type": "LinkedServiceReference"
 				}
 			}
